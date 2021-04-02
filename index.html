@@ -1,0 +1,34 @@
+<html>
+	<title>ChatBot birô de crédito</title>
+	<head>
+		<style>
+			body {
+			  background-image: url('static/bot_background.jpg');
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			Bot <i>Birô de crédito</i> da aula de chatbots da pós de data science da Furb
+		</h1>
+		<h3>
+			Clique no ícone do canto inferior direito para iniciar a conversão com o bot
+		</h5>
+		<script>
+		  window.watsonAssistantChatOptions = {
+			  integrationID: "df77b6fd-863c-4b66-8e36-f62f62898bae", // The ID of this integration.
+			  region: "us-south", // The region your integration is hosted in.
+			  serviceInstanceID: "ed413263-400f-438c-80d2-6091bbbfd889", // The ID of your service instance.
+			  onLoad: function(instance) { instance.render(); }
+			};
+		  setTimeout(function(){
+			const t=document.createElement('script');
+			t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+			document.head.appendChild(t);
+		  });
+		</script>
+	</body>
+</html>
