@@ -1,0 +1,1157 @@
+{
+  "intents": [
+    {
+      "intent": "cadastro_positivo",
+      "examples": [
+        {
+          "text": "cadastro positivo"
+        },
+        {
+          "text": "como está meu cadastro positivo?"
+        },
+        {
+          "text": "consultar cadastro positivo"
+        },
+        {
+          "text": "habilitar cadastro positivo"
+        },
+        {
+          "text": "situação do cadastro positivo"
+        },
+        {
+          "text": "verificar cadastro positivo"
+        }
+      ],
+      "description": "Verifica cadastro positivo"
+    },
+    {
+      "intent": "consulta_cpf",
+      "examples": [
+        {
+          "text": "bisbilhotar CPF"
+        },
+        {
+          "text": "consulta CPF"
+        },
+        {
+          "text": "consultar CPF"
+        },
+        {
+          "text": "consultar um CPF"
+        },
+        {
+          "text": "realizar consulta"
+        },
+        {
+          "text": "verificar CPF"
+        }
+      ],
+      "description": "Realizar consulta para um CPF"
+    },
+    {
+      "intent": "consulta_credito",
+      "examples": [
+        {
+          "text": "consultar crédito"
+        },
+        {
+          "text": "crédito"
+        },
+        {
+          "text": "empréstimo"
+        },
+        {
+          "text": "falta dinheiro"
+        },
+        {
+          "text": "pegar crédito"
+        },
+        {
+          "text": "preciso de crédito"
+        },
+        {
+          "text": "preciso de dinheiro"
+        },
+        {
+          "text": "quero crédito"
+        },
+        {
+          "text": "simular crédito"
+        },
+        {
+          "text": "simular empréstimo"
+        }
+      ],
+      "description": "Consulta de crédito para o consumidor"
+    },
+    {
+      "intent": "consultar_score",
+      "examples": [
+        {
+          "text": "escore"
+        },
+        {
+          "text": "me diga o escore"
+        },
+        {
+          "text": "pontuação do score"
+        },
+        {
+          "text": "qual o meu score"
+        },
+        {
+          "text": "quero saber o meu score"
+        },
+        {
+          "text": "score"
+        },
+        {
+          "text": "verificar score"
+        },
+        {
+          "text": "ver score"
+        },
+        {
+          "text": "visualizar score"
+        }
+      ],
+      "description": "Visualização do score"
+    },
+    {
+      "intent": "decisao_negativa",
+      "examples": [
+        {
+          "text": "jamais"
+        },
+        {
+          "text": "não"
+        },
+        {
+          "text": "não quero"
+        },
+        {
+          "text": "negativo"
+        },
+        {
+          "text": "nem pintado de ouro"
+        },
+        {
+          "text": "nem que a vaca tussa"
+        },
+        {
+          "text": "nunca"
+        },
+        {
+          "text": "nunquinha"
+        }
+      ],
+      "description": "Decisão negativa, não"
+    },
+    {
+      "intent": "decisao_positiva",
+      "examples": [
+        {
+          "text": "claro"
+        },
+        {
+          "text": "é para já"
+        },
+        {
+          "text": "é pra já"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "partiu"
+        },
+        {
+          "text": "positivo"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "só se for ontem"
+        },
+        {
+          "text": "vamos"
+        }
+      ],
+      "description": "Decisão positiva, sim"
+    },
+    {
+      "intent": "detalhar_oferta",
+      "examples": [
+        {
+          "text": "Detalhar"
+        },
+        {
+          "text": "Detalhar dívida"
+        },
+        {
+          "text": "Detalhar essa oferta"
+        },
+        {
+          "text": "Detalhar oferta"
+        },
+        {
+          "text": "Detalhes"
+        },
+        {
+          "text": "Detalhes da oferta"
+        }
+      ],
+      "description": "Detalhar oferta"
+    },
+    {
+      "intent": "monitorar_cpf",
+      "examples": [
+        {
+          "text": "consultaram meu CPF?"
+        },
+        {
+          "text": "meu CPF está exposto?"
+        },
+        {
+          "text": "meu CPF vazou?"
+        },
+        {
+          "text": "monitoramento CPF"
+        },
+        {
+          "text": "monitoramento de CPF"
+        },
+        {
+          "text": "monitorar CPF"
+        },
+        {
+          "text": "quantas consultas teve o meu CPF?"
+        },
+        {
+          "text": "tive dados vazados?"
+        },
+        {
+          "text": "verificaram meu CPF?"
+        }
+      ],
+      "description": "Monitoramento de CPF"
+    },
+    {
+      "intent": "negociar_divida",
+      "examples": [
+        {
+          "text": "limpar nome"
+        },
+        {
+          "text": "limpar o nome"
+        },
+        {
+          "text": "negociar as dívidas"
+        },
+        {
+          "text": "negociar dívida"
+        },
+        {
+          "text": "negociar dívidas"
+        },
+        {
+          "text": "pagar dívidas"
+        },
+        {
+          "text": "quitar dívidas"
+        },
+        {
+          "text": "renegociar dívidas"
+        }
+      ],
+      "description": "Negociação de dívidas"
+    },
+    {
+      "intent": "negociar_oferta",
+      "examples": [
+        {
+          "text": "continuar com a negociação"
+        },
+        {
+          "text": "continuar negociação"
+        },
+        {
+          "text": "negociar"
+        },
+        {
+          "text": "negociar oferta"
+        },
+        {
+          "text": "seguir"
+        },
+        {
+          "text": "seguir negociação"
+        }
+      ],
+      "description": "Negociar a oferta"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "codigo_oferta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "um"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": [
+            "dez"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "dois"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "três"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "quatro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "cinco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": [
+            "seis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": [
+            "sete"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": [
+            "oito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "9",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "parcelamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "a vista",
+          "synonyms": [
+            "de uma vez",
+            "uma parcela"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "duas parcelas",
+          "synonyms": [
+            "duas parcela"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "vencimento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "amanhã",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dois dias",
+          "synonyms": [
+            "em dois dias"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hoje",
+          "synonyms": [
+            "é para já"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "três dias",
+          "synonyms": [
+            "em três dias"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/johnny.souza3%40gmail.com_dev/aula_chatbots/Get_Score.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "title": "Olá. Seja bem-vindo ao melhor birô de crédito existente",
+            "options": [
+              {
+                "label": "Consultar score",
+                "value": {
+                  "input": {
+                    "text": "consulta_score"
+                  }
+                }
+              },
+              {
+                "label": "Negociar dívidas",
+                "value": {
+                  "input": {
+                    "text": "negociar_dividas"
+                  }
+                }
+              },
+              {
+                "label": "Simular crédito",
+                "value": {
+                  "input": {
+                    "text": "consulta_credito"
+                  }
+                }
+              },
+              {
+                "label": "Cadastro positivo",
+                "value": {
+                  "input": {
+                    "text": "cadastro_positivo"
+                  }
+                }
+              },
+              {
+                "label": "Monitoramento de CPF",
+                "value": {
+                  "input": {
+                    "text": "monitorar_cpf"
+                  }
+                }
+              },
+              {
+                "label": "Consultar CPF",
+                "value": {
+                  "input": {
+                    "text": "consulta_cpf"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1616636654642",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Renda mensal de R$ $renda configurada"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Agora informe qual o valor do empréstimo para simular:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617051686621",
+      "context": {
+        "renda": "<?input.text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1617052004435"
+    },
+    {
+      "type": "standard",
+      "title": "Parcelamento oferta",
+      "output": {
+        "generic": [
+          {
+            "title": "Deseja pagar em quantas parcelas?",
+            "options": [
+              {
+                "label": "1x R$ 100,00",
+                "value": {
+                  "input": {
+                    "text": "a_vista"
+                  }
+                }
+              },
+              {
+                "label": "2x 50,00",
+                "value": {
+                  "input": {
+                    "text": "duas_parcelas"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617055771318",
+      "context": {},
+      "conditions": "#negociar_oferta",
+      "dialog_node": "node_10_1617058514318",
+      "previous_sibling": "node_1_1617058173232"
+    },
+    {
+      "type": "standard",
+      "title": "Desistência",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Foi uma pena não atender as suas expectativas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1617060060615",
+      "conditions": "#decisao_negativa",
+      "dialog_node": "node_10_1617060228004",
+      "previous_sibling": "node_7_1617060175504"
+    },
+    {
+      "type": "standard",
+      "title": "Consultar score",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {},
+          "result_variable": "score_result"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#consultar_score",
+      "dialog_node": "node_1_1616636654642",
+      "previous_sibling": "node_7_1616637408271"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Simulando empréstimo de R$ $valor_simulacao para pagar em $qtd_parcelas parcelas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Simulação de empréstimo negada"
+              },
+              {
+                "text": "Simulação de empréstimo aprovada"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1617052249381",
+      "context": {
+        "qtd_parcelas": "<?input.text?>"
+      },
+      "conditions": "$valor_simulacao",
+      "dialog_node": "node_1_1617052365994"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu cadastro positivo permanece desativado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617052834928",
+      "conditions": "#decisao_negativa",
+      "dialog_node": "node_1_1617053535434",
+      "previous_sibling": "node_9_1617053213046"
+    },
+    {
+      "type": "standard",
+      "title": "Detalhamento oferta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua dívida de cartão Renner venceu em 30 de agosto de 2016."
+              },
+              {
+                "text": "Possuía uma valor de R$ 200,00."
+              },
+              {
+                "text": "Credor da dívida é Lojas Renner S.A., inscrita sobre o CNPJ 12.345.678/0001-01"
+              },
+              {
+                "text": "Deseja continuar a negociação?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617055771318",
+      "conditions": "#detalhar_oferta",
+      "dialog_node": "node_1_1617058173232"
+    },
+    {
+      "type": "standard",
+      "title": "Consultar crédito",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor informe qual a sua renda mensal:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#consulta_credito",
+      "dialog_node": "node_2_1617051686621",
+      "previous_sibling": "node_4_1617052834928"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja pagar em quantas prestações?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617052004435",
+      "context": {
+        "valor_simulacao": "<?input.text?>"
+      },
+      "conditions": "$renda",
+      "dialog_node": "node_2_1617052249381"
+    },
+    {
+      "type": "standard",
+      "title": "Monitoramento de CPF",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu CPF não foi consultado nos últimos 6 meses"
+              },
+              {
+                "text": "Seu CPF foi consultado uma vez nos últimos 6 meses"
+              },
+              {
+                "text": "Seu CPF foi consultado duas vezes nos últimos 6 meses"
+              },
+              {
+                "text": "Seu CPF foi consultado três vezes nos últimos 6 meses"
+              },
+              {
+                "text": "Seu CPF foi consultado mais do que três vezes nos últimos 6 meses"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#monitorar_cpf",
+      "dialog_node": "node_2_1617053800407",
+      "previous_sibling": "node_8_1617057063407"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastro positivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro positivo desabilitado. Deseja habilitar?"
+              },
+              {
+                "text": "Cadastro positivo já está ativo e seus dados positivos irão influenciar no seu score."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#cadastro_positivo",
+      "dialog_node": "node_4_1617052834928",
+      "previous_sibling": "node_2_1617053800407"
+    },
+    {
+      "type": "standard",
+      "title": "Visualizar oferta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua dívida de R$ 1.000,00 na Renner está com 90% de desconto e disponível para negociação por R$ 100,00."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "O que deseja fazer com essa oferta?",
+            "options": [
+              {
+                "label": "Detalhar",
+                "value": {
+                  "input": {
+                    "text": "detalhar_oferta"
+                  }
+                }
+              },
+              {
+                "label": "Negociar",
+                "value": {
+                  "input": {
+                    "text": "negociar_oferta"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1616637408271",
+      "conditions": "@codigo_oferta:(1)",
+      "dialog_node": "node_4_1617055771318"
+    },
+    {
+      "type": "standard",
+      "title": "Resultado da consulta do CPF",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CPF $cpf não possui pendências"
+              },
+              {
+                "text": "CPF $cpf possui uma dívida de R$ 1.000,00"
+              },
+              {
+                "text": "CPF $cpf possui duas dívidas, uma de R$ 1.000,00 e outra de R$ 3.500,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1617057063407",
+      "context": {
+        "cpf": "<?input.text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1617057094590"
+    },
+    {
+      "type": "standard",
+      "title": "Interromper negociação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sinto muito pela oferta não ter sido o que esperava"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1617058173232",
+      "conditions": "#decisao_negativa",
+      "dialog_node": "node_4_1617059016418",
+      "previous_sibling": "node_7_1617058944593"
+    },
+    {
+      "type": "standard",
+      "title": "Revisar acordo",
+      "output": {
+        "generic": [
+          {
+            "title": "Deseja fechar o acordo?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1617059712015",
+      "conditions": "@vencimento",
+      "dialog_node": "node_5_1617060060615"
+    },
+    {
+      "type": "standard",
+      "title": "Negociar dívidas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Parabéns, você não possui dívidas com ofertas pendentes!"
+              },
+              {
+                "text": "Você possui as seguinte oferta: 1 - Renner | Por R$ 100,00 com 90% de desconto. Digite o código correspondente a oferta que deseja negociar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#negociar_divida",
+      "dialog_node": "node_7_1616637408271",
+      "previous_sibling": "node_2_1617051686621"
+    },
+    {
+      "type": "standard",
+      "title": "Continuar negociação",
+      "parent": "node_1_1617058173232",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1617058514318"
+      },
+      "conditions": "#decisao_positiva",
+      "dialog_node": "node_7_1617058944593"
+    },
+    {
+      "type": "standard",
+      "title": "Acordo fechado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Parabéns por negociar sua dívida com a melhor plataforma de negociação de dívidas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1617060060615",
+      "conditions": "#decisao_positiva",
+      "dialog_node": "node_7_1617060175504"
+    },
+    {
+      "type": "standard",
+      "title": "Consulta CPF",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual CPF você deseja consultar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#consulta_cpf",
+      "dialog_node": "node_8_1617057063407",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Parabéns, seu cadastro positivo foi ativado e passará a ajudar no cálculo do seu score"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617052834928",
+      "conditions": "#decisao_positiva",
+      "dialog_node": "node_9_1617053213046"
+    },
+    {
+      "type": "standard",
+      "title": "Vencimento",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha a melhor data de vencimento para o seu boleto",
+            "options": [
+              {
+                "label": "Hoje",
+                "value": {
+                  "input": {
+                    "text": "hoje"
+                  }
+                }
+              },
+              {
+                "label": "Amanhã",
+                "value": {
+                  "input": {
+                    "text": "amanhã"
+                  }
+                }
+              },
+              {
+                "label": "Em 2 dias",
+                "value": {
+                  "input": {
+                    "text": "dois dias"
+                  }
+                }
+              },
+              {
+                "label": "Em 3 dias",
+                "value": {
+                  "input": {
+                    "text": "três dias"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1617058514318",
+      "conditions": "@parcelamento",
+      "dialog_node": "node_9_1617059712015"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Não foi possível consultar o seu score"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1616636654642",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1617368943123",
+      "previous_sibling": "response_2_1617368942647"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Seu score é de $score_result.body.score"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1616636654642",
+      "conditions": "$score_result",
+      "dialog_node": "response_2_1617368942647"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1616637408271",
+      "disabled": true,
+      "dialog_node": "response_9_1617055035638",
+      "previous_sibling": "node_4_1617055771318"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Birô de crédito",
+  "language": "pt-br",
+  "description": "Trabalho da disciplina de chatbots"
+}
